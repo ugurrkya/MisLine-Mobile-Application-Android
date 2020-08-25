@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AnnounceActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name User"
+        android:id="@+id/nameofuser"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeof"
+        android:layout_gravity="end"
+        android:text="01/01/2019 Monday" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="105dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Type your announce title"
+        android:id="@+id/titlename"
+        android:textColor="#a71515"
+        android:layout_marginRight="90dp"/>
+
+    <Spinner
+        android:id="@+id/dtlistname"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="-40dp"
+        android:spinnerMode="dropdown"></Spinner>
+
+    <ImageView
+        android:id="@+id/announcephoto"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="100dp"/>
+
+    <Button
+        android:id="@+id/chooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose an Image"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="0dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+    <Button
+        android:id="@+id/announce_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Announce" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MisLine</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string-array name="lists">
+        <item>Event</item>
+        <item>Society</item>
+        <item>Internship</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

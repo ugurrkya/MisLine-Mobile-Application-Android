@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917799281147",
+    "firebase_url": "https://misline.firebaseio.com",
+    "project_id": "misline",
+    "storage_bucket": "misline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917799281147:android:2065ba68256358aa",
+        "android_client_info": {
+          "package_name": "com.misline.jua.misline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917799281147-hlp114lq2jdtg37varihoo6r5hke6afo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.misline.jua.misline",
+            "certificate_hash": "d6613832b7a4cdf4e2cdc91bca424828e7eb7503"
+          }
+        },
+        {
+          "client_id": "917799281147-8fgqin5hmjua9osj357bdap7qolem3de.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaAYZcM4OVbF0B7hxMNCDqZ-meA8vHvrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917799281147-8fgqin5hmjua9osj357bdap7qolem3de.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SharingDetailsActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/mybar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dtUserImage"
+                android:layout_width="50dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/dtUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USER NAME HERE" />
+            <TextView
+                android:id="@+id/dtLectureNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#b25046"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/dtUserName"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recycler_view"
+    android:layout_marginTop="50dp"
+    />
+
+</LinearLayout>
+
+</RelativeLayout>

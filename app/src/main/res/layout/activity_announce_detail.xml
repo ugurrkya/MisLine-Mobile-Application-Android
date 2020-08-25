@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".AnnounceDetailActivity"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dtnameofuser"
+            android:text="username will be here now"
+            android:textColor="#b25046"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:gravity="left"
+        android:paddingTop="20dp">
+
+
+        <ImageView
+            android:id="@+id/dtannounceimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_y="-40dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/loadingimage"
+            android:scaleType="centerCrop" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></LinearLayout>
+    <TextView
+        android:id="@+id/fortitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title is here"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/fordate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date will be here now"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/fordescription"
+        android:text="Description will be here."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "200dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        />
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
